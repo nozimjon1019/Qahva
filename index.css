@@ -1,0 +1,208 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:tan;          
+}
+
+.ushla {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 50%;
+}
+.qahva {
+  width: 400px;
+  height: 400px;
+  border: 20px solid rgb(255, 255, 255);
+  border-radius: 10px 10px 100px 100px;
+  overflow: hidden;
+  position: relative;
+}
+
+.chiziq {
+  width: 400px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.jumrak {
+  width: 150px;
+  height: 220px;
+  border: 20px solid #fff;
+  border-radius: 10px 200px 610px 0;
+  position: absolute;
+  margin-left: 39%;
+  margin-top: -5%;
+  border-left: 1px solid #fff;
+}
+
+.btn {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 50%;
+}
+
+.btn button {
+  width: 130px;
+  padding: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+/* ******************* Buttonlar boshlanishi **************************** */
+
+.boshi {
+  width: 100%;
+  height: 0;
+  background-color: blue;
+  position: absolute;
+  bottom: 0;
+  transition: all 1s ease-in-out;
+}
+.qosh1 {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+  bottom: 0;
+  transition: all 1s ease-in-out;
+  z-index: 999999999;
+}
+
+/* ******************** Birinchi button ************************** */
+
+.boshi1 {
+  width: 100%;
+  height: 0;
+  transition: all 1s ease-in-out;
+  background-color: teal;
+  position: absolute;
+  bottom: 0;
+}
+.yangiQosh {
+  width: 100%;
+  height: 150px;
+  background-color: teal;
+  bottom: 0;
+  transition: all 1s ease-in-out;
+  position: absolute;
+  bottom: 0;
+  z-index: 4;
+}
+
+/* ******************** ikkinchi button ************************** */
+
+.boshi2 {
+  width: 100%;
+  height: 0;
+  background-color: gray;
+  position: absolute;
+  bottom: 0;
+  transition: all 1s ease-in-out;
+}
+.uchinchi {
+  width: 100%;
+  height: 200px;
+  transition: all 1s ease-in-out;
+  background-color: gray;
+  position: absolute;
+  bottom: 0;
+  z-index: 3;
+}
+
+/* ******************** uchinchi button ************************** */
+
+.boshi3 {
+  width: 100%;
+  height: 0;
+  transition: all 1s ease-in-out;
+  background-color: tomato;
+  position: absolute;
+  bottom: 0;
+}
+.tortinchiqosh {
+  width: 100%;
+  height: 250px;
+  background-color: tomato;
+  bottom: 0;
+  transition: all 1s ease-in-out;
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+}
+
+/* ******************** Tortinchi button ************************** */
+
+.boshi4 {
+  width: 100%;
+  height: 0;
+  transition: all 1s ease-in-out;
+  background-color: gold;
+  position: absolute;
+  bottom: 0;
+}
+.songisi {
+  width: 100%;
+  height: 300px;
+  background-color: gold;
+  bottom: 0;
+  transition: all 1s ease-in-out;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+
+/* ******************** Beshinchi button ************************** */
+
+.btn :nth-child(1) {
+  background-color: blue;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 7px;
+}
+.btn :nth-child(2) {
+  background-color: teal;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 7px;
+}
+.btn :nth-child(3) {
+  background-color: gray;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 7px;
+}
+.btn :nth-child(4) {
+  background-color: tomato;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 7px;
+}
+.btn :nth-child(5) {
+  background-color: gold;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 7px;
+}
